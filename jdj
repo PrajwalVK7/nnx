@@ -20,7 +20,7 @@ const Coursecarousel = ({route}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [buttonLabel, setButtonLabel] = useState("Read");
   
-  const data = route.params.data; // Assuming `data` is passed as a route param
+  const data = route.params.data; 
 
   const handleScroll = () => {
     let nextIndex = currentIndex + 1;
